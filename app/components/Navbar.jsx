@@ -3,6 +3,8 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { PawPrint } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+
 function Navbar() {
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +40,9 @@ function Navbar() {
         </div>
 
         <div>
-        <Button variant="outline" >Adopt Here</Button>
+          <Link href="../viewpet">
+            <Button variant="outline" >Adopt Here</Button>
+          </Link>
         </div>
     </div>
   )
