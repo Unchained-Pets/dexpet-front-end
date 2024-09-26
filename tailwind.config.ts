@@ -13,7 +13,7 @@ const config: Config = {
   theme: {
   	extend: {
 			backgroundImage:{
-				adoptionHero:"url('/public/GettyImagesHusky.jpg')"
+				adoptionHero:"url('../public/GettyImagesHusky.jpg') "
 				// bg1:"url('../assets/Announcements.png')"
 			},
   		colors: {

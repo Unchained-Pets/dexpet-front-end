@@ -33,7 +33,7 @@ function Navbar() {
         </div>
         <div className='space-x-10'>
         <a href="" className='font-semibold hover:bg-blue-700 hover:py-2 hover:px-2 hover:rounded-md hover:text-white '>Pet List</a>
-            <a href="" className='font-semibold'>Adoption</a>
+            <a href="/adoption" className='font-semibold'>Adoption</a>
             <a href="" className='font-semibold'>Contact</a>
         </div>
 

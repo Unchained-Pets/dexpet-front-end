@@ -1,11 +1,10 @@
-import React from 'react'
-
-import "@/app/globals.css"
+import React from 'react';
+import { PageHero } from "@/app/components"
 
 const Adoption = () => {
   return (
-    <div className='bg-adoptionHero bg-cover bg-center h-[250px] w-screen'>
-      Adoption
+    <div>
+      <PageHero pageTitle='Get Adoption' prev='Home' prevUrl='/' currentPage='Adoption' />
     </div>
   )
 }
