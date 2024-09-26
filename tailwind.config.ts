@@ -1,4 +1,7 @@
 import type { Config } from "tailwindcss";
+import { url } from "inspector";
+
+// import image from "./public"
 
 const config: Config = {
     darkMode: ["class"],
@@ -9,6 +12,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+			backgroundImage:{
+				adoptionHero:"url('../public/GettyImagesHusky.jpg') "
+				// bg1:"url('../assets/Announcements.png')"
+			},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
