@@ -1,10 +1,11 @@
 import React from 'react';
-import { PageHero } from "@/app/components"
+import { PageHero, AdoptionIntro } from "@/app/components"
 
 const Adoption = () => {
   return (
-    <div>
+    <div className=''>
       <PageHero pageTitle='Get Adoption' prev='Home' prevUrl='/' currentPage='Adoption' />
+      <AdoptionIntro />
     </div>
   )
 }
